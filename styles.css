@@ -1,0 +1,205 @@
+/* Default font idenifier */
+
+* {
+  font-family: "lato-regular";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Color codes for Nav links */
+
+nav a:link {color: #082B59;}
+nav a:visited {color: #082B59;}
+nav a:hover {color: #D98555;}
+nav a:active {color: #F2F2F2;}
+nav a {padding: 15px;}
+nav a {font-size: 17px;}
+
+/* Google Fonts */
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "OpenSans", serif;
+  font-style: normal;
+}
+
+/* HEADER */
+
+.logo-container {
+  position: relative;
+  text-align: center;
+  color: white; 
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.main-nav {
+  border-top: 2px solid #082B59;
+  border-bottom: 1px solid #082B59;
+  padding: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+/* HERO */
+
+.two-up {
+ margin-top: 50px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 5px;
+}
+
+.main-paragraph {
+  position: relative;
+  color: black;  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+.special-link {
+  color: #D98555;
+}
+
+.button {
+  background-color: #082B59;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 17px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.centered-caption {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+.centered-caption p {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 10pt;
+  color: white;
+}
+
+.product-card {
+  width: 400px;
+  border: 1px solid #989898; /* Grey border */
+  padding: 20px; /* Padding all around */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  border-radius: 16px;
+  margin: 1%;
+}
+
+.product-info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product-wall {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* FOOTER */
+
+.foot-container {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: #082B59;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+
+/* Color codes for Footer Links */
+
+footer a:link {color: #F2F2F2;}
+footer a:visited {color: #F2F2F2;}
+footer a:hover {color: #D98555;}
+footer a:active {color: #F2F2F2;}
+footer a {padding: 15px;}
+footer a {font-size: 17px;}
+
+
+/* Small screens (414px to 599px) */
+@media only screen and (max-width: 599px) {
+  .product-wall {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
+
+
+@media only screen and (max-width: 599px) {
+  .two-up {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+}
+
+/* Medium screens (600px to 1023px) */
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .image-container {
+    width: 300px;
+  }
+}
+
+
+
+/* Large screens (1024px and up) */
+
+
+
+
+
