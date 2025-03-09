@@ -14,8 +14,15 @@ nav a:link {color: #082B59;}
 nav a:visited {color: #082B59;}
 nav a:hover {color: #D98555;}
 nav a:active {color: #F2F2F2;}
-nav a {padding: 15px;}
-nav a {font-size: 17px;}
+nav a {
+  padding: 15px;
+  font-size: 17px;
+  font-family: 'lato-regular', sans-serif;
+}
+
+nav a.active {
+  color: #D98555;
+}
 
 /* Google Fonts */
 
@@ -29,6 +36,14 @@ nav a {font-size: 17px;}
   font-family: "Lato", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
+}
+
+.lato-small {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
 }
 
 .open-sans {
@@ -78,6 +93,7 @@ nav a {font-size: 17px;}
 
 .special-link {
   color: #D98555;
+  font-family: 'lato-regular', sans-serif;
 }
 
 .button {
@@ -92,6 +108,7 @@ nav a {font-size: 17px;}
   cursor: pointer;
   border-radius: 16px;
   font-size: 17px;
+  font-family: 'lato-regular', sans-serif;
 }
 
 .image-container {
@@ -164,8 +181,11 @@ footer a:link {color: #F2F2F2;}
 footer a:visited {color: #F2F2F2;}
 footer a:hover {color: #D98555;}
 footer a:active {color: #F2F2F2;}
-footer a {padding: 15px;}
-footer a {font-size: 17px;}
+footer a {
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'lato-regular', sans-serif;
+}
 
 
 /* Small screens (414px to 599px) */
