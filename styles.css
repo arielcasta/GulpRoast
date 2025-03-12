@@ -1,4 +1,8 @@
 /* Default font idenifier */
+strong {
+  font-family: "lato-regular", sans-serif;
+  font-weight: bold; /* Optional, to ensure boldness */
+}
 
 * {
   font-family: "lato-regular";
@@ -17,7 +21,7 @@ nav a:active {color: #F2F2F2;}
 nav a {
   padding: 15px;
   font-size: 17px;
-  font-family: 'lato-regular', sans-serif;
+  font-family: "lato-regular", sans-serif;
 }
 
 nav a.active {
@@ -160,6 +164,30 @@ nav a.active {
   flex-direction: row;
   justify-content: center;
 }
+
+.BootstrapAdjustment {
+  margin: 1%;
+  border: 1px solid #989898;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+#dropdownMenuButton1 {
+  background-color: #082B59;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 17px;
+  font-family: 'lato-regular', sans-serif;
+}
+
+body a:hover {color: #F2F2F2;}
 
 
 /* FOOTER */
